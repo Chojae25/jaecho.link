@@ -7360,6 +7360,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  padding-bottom: 25px;
 }
 
 .mb-1 {
@@ -11405,6 +11406,31 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+.social-icons .social-icon2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon2:last-child {
+  margin-right: 0;
+}
+
+.social-icons .flex-test {
+  display: block;
+  position: absolute;
+  margin-left:336px;
+  text-align: center;
+  width: 3.5rem;
+  font-size: 1.0rem;
+  margin-right: 1.2rem;
 }
 
 section.resume-section {
