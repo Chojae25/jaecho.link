@@ -11446,6 +11446,34 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+section.resume-section .resume-section-content .project-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  height: 4.5rem;
+  width: 7.5rem;
+  border-color:var(--bs-gray-500);
+  border-style:solid;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  order:1;
+
+}
+
+section.resume-section .resume-section-content .flex-test2 {
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0.4rem;
+  height: 5rem;
+  width: 7.5rem;
+  font-size: 0.9rem;
+  margin-right: 1.2rem;
+  order:2;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
